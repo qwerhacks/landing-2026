@@ -14,7 +14,30 @@
 		<span class="text-8xl md:text-6xl lg:text-7xl text-white qwer-title" style="text-shadow: 0 10px 30px rgba(0,0,0,0.45), 0 3px 8px rgba(34,34,34,0.2);"> ݁₊⊹.QWER Hacks.₊⊹</span>
 		<span class="text-4xl md:text-3xl lg:text-4xl" style="color: #1a1560; opacity: 0.9;">UCLA | Feb 2027</span>
 	</div>
-	<Email />
+
+	<div class="flex flex-col items-center gap-4">
+		<a
+			href="https://forms.gle/okVWdD28y26edwbP9"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="px-8 py-4 text-xl lg:text-2xl font-montserrat_alternates_bold text-white transition-all duration-300 hover:scale-105"
+			style="
+				background:#D4AF37;
+				border-radius:999px;
+				box-shadow: 0 8px 20px rgba(0,0,0,0.3), 0 2px 6px rgba(0,0,0,0.2);
+			"
+		>
+			Fill Out Our Early Interest Form →
+		</a>
+
+		<p
+			class="text-center text-lg lg:text-xl font-montserrat_alternates"
+			style="color: #1a1560; opacity: 0.9;"
+		>
+			Get updates about QWER Hacks 2027, applications, and announcements.
+		</p>
+	</div>
+
 	<span
 		class="text-center text-2xl lg:text-3xl font-montserrat_alternates_bold inline-block"
 		style="color: #1a1560; opacity: 0.9;"
