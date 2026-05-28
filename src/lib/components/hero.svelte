@@ -12,7 +12,7 @@
 		class="text-center font-milonga tracking-wide flex flex-col items-center gap-5 md:gap-6"
 	>
 		<span class="text-8xl md:text-6xl lg:text-7xl text-white qwer-title" style="text-shadow: 0 10px 30px rgba(0,0,0,0.45), 0 3px 8px rgba(34,34,34,0.2);"> ݁₊⊹.QWER Hacks.₊⊹</span>
-		<span class="text-4xl md:text-3xl lg:text-4xl" style="color: #1a1560; opacity: 0.9;">UCLA | Feb 7-8, 2026</span>
+		<span class="text-4xl md:text-3xl lg:text-4xl" style="color: #1a1560; opacity: 0.9;">UCLA | Feb 2027</span>
 	</div>
 	<Email />
 	<span
@@ -20,6 +20,7 @@
 		style="color: #1a1560; opacity: 0.9;"
 		>the lgbtqia community? <wbr />at MY hackathon???<br /><br />it's more likely than you think.</span
 	>
+	<h2 class="underline font-montserrat_alternates_bold text-xl text-[#1a1560]"><a href="http://mlh.io/code-of-conduct">MLH Code of Conduct</a></h2>
 </div>
 
 <!--2024's sponsorship form-->
