@@ -5,14 +5,14 @@
 <div class="mt-auto" />
 
 <div
-	class="flex flex-col justify-center items-center gap-8 p-10 md:p-14 rounded-xl w-max lg:w-[60%] max-w-[95vw] md:max-w-[70vw]"
+	class="hero-card flex flex-col justify-center items-center gap-8 p-10 md:p-14 rounded-3xl w-max lg:w-[60%] max-w-[95vw] md:max-w-[70vw]"
 >
 	<!-- Logo from 2023 commented out for now; replaced with plain heading text -->
 	<div
 		class="text-center font-milonga tracking-wide flex flex-col items-center gap-5 md:gap-6"
 	>
-		<span class="text-8xl md:text-6xl lg:text-7xl text-white qwer-title" style="text-shadow: 0 10px 30px rgba(0,0,0,0.45), 0 3px 8px rgba(34,34,34,0.2);"> ݁₊⊹.QWER Hacks.₊⊹</span>
-		<span class="text-4xl md:text-3xl lg:text-4xl" style="color: #1a1560; opacity: 0.9;">UCLA | Feb 2027</span>
+		<span class="text-6xl md:text-7xl lg:text-8xl text-white qwer-title" style="text-shadow: 0 10px 30px rgba(0,0,0,0.45), 0 3px 8px rgba(34,34,34,0.2);"> ݁₊⊹.QWER Hacks.₊⊹</span>
+		<span class="text-3xl md:text-4xl lg:text-5xl" style="color: #1a1560; opacity: 0.9;">UCLA&nbsp;·&nbsp;Feb 2–4, 2027</span>
 	</div>
 
 	<div class="flex flex-col items-center gap-4">
@@ -39,11 +39,15 @@
 	</div>
 
 	<span
-		class="text-center text-2xl lg:text-3xl font-montserrat_alternates_bold inline-block"
+		class="text-center text-2xl lg:text-3xl font-montserrat_alternates_bold inline-block leading-relaxed"
 		style="color: #1a1560; opacity: 0.9;"
 		>the lgbtqia community? <wbr />at MY hackathon???<br /><br />it's more likely than you think.</span
 	>
-	<h2 class="underline font-montserrat_alternates_bold text-xl text-[#1a1560]"><a href="http://mlh.io/code-of-conduct">MLH Code of Conduct</a></h2>
+	<a
+		href="http://mlh.io/code-of-conduct"
+		class="underline underline-offset-4 font-montserrat_alternates_bold text-xl text-[#1a1560] opacity-80 transition-opacity duration-300 hover:opacity-100"
+		>MLH Code of Conduct</a
+	>
 </div>
 
 <!--2024's sponsorship form-->
@@ -54,6 +58,14 @@
 </div>
 
 <style>
+	.hero-card {
+		background: rgba(255, 255, 255, 0.12);
+		backdrop-filter: blur(14px) saturate(120%);
+		-webkit-backdrop-filter: blur(14px) saturate(120%);
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		box-shadow: 0 20px 60px rgba(10, 55, 161, 0.25), 0 4px 12px rgba(0, 0, 0, 0.15);
+	}
+
 	.qwer-title {
 		cursor: pointer;
 		position: relative;
